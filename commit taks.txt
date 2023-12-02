@@ -1,0 +1,7 @@
+1. "Add starter code"
+2. "Refactor code for accessibility"
+3. "Validate and fix links"
+4. "Consolidate and organize CSS"
+5. "Add comments in CSS file"
+6. "Prepare for deployment"
+7. "Deployed application to GitHub Pages"

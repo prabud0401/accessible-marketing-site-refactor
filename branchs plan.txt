@@ -1,0 +1,14 @@
+1. **main (or master) branch:**
+    - The default branch where the finished and tested code is stored.
+2. **feature/refactor-accessibility:**
+    - Branch for refactoring code to meet accessibility standards.
+3. **feature/fix-links:**
+    - Branch for addressing and fixing link-related issues.
+4. **feature/organize-css:**
+    - Branch for consolidating and organizing CSS selectors and properties.
+5. **feature/add-css-comments:**
+    - Branch for adding comments to the CSS file.
+6. **feature/deployment-prep:**
+    - Branch for preparing the codebase for deployment.
+7. **feature/deployed-version:**
+    - Branch to hold the final version that is deployed to GitHub Pages.
