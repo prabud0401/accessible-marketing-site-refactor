@@ -1,3 +1,4 @@
+/* Reset styles and set default font */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -5,10 +6,12 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/* Body styles */
 body {
     background-color: #d9dcd6;
 }
 
+/* Header styles */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -17,15 +20,18 @@ header {
     border-radius: 8px;
 }
 
+/* Header h1 styles */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Header h1 span styles */
 header h1 span {
     color: #d9dcd6;
 }
 
+/* Navigation styles */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -42,12 +48,13 @@ nav ul li {
     margin-left: 25px;
 }
 
+/* Link styles */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-
+/* Section styles */
 section {
     height: 800px;
     width: 100%;
@@ -58,6 +65,7 @@ section {
     border-radius: 8px;
 }
 
+/* Float styles */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -68,12 +76,14 @@ section {
     margin-left: 25px;
 }
 
+/* Article styles */
 article {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Aside styles */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -85,25 +95,26 @@ aside {
     border-radius: 8px;
 }
 
+/* Aside div styles */
 aside div {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-
+/* Aside div h3 styles */
 aside div h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-
+/* Aside div img styles */
 aside div img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-
+/* Article div styles */
 article div {
     margin-bottom: 20px;
     padding: 50px;
@@ -111,22 +122,21 @@ article div {
     background-color: #0072bb;
     color: #ffffff;
     border-radius: 8px;
-
 }
 
-
+/* Article div img styles */
 article div img {
     max-height: 200px;
     border-radius: 8px;
 }
 
-
+/* Article h2 styles */
 article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-
+/* Footer styles */
 footer {
     padding: 30px;
     clear: both;
@@ -134,13 +144,14 @@ footer {
     text-align: center;
 }
 
+/* Footer h2 styles */
 footer h2 {
     font-size: 20px;
 }
 
-
-@media (max-width:1100px) {
-    header{
+/* Media queries for responsive design */
+@media (max-width: 1100px) {
+    header {
         text-align: center;
     }
     nav {
@@ -149,9 +160,9 @@ footer h2 {
         float: none;
         font-size: 20px;
     }
-    
 }
-@media (max-width:1235px) {
+
+@media (max-width: 1235px) {
     article {
         width: 95%;
         height: auto;
@@ -159,7 +170,7 @@ footer h2 {
         margin-left: 20px;
         margin-right: 20px;
     }
-    
+
     aside {
         align-items: center;
         text-align: center;
@@ -171,13 +182,10 @@ footer h2 {
         clear: none;
         width: 95%;
         height: auto;
-
     }
-    
 }
-@media (max-width:940px) {
-    
-    
+
+@media (max-width: 940px) {
     article div {
         text-align: center;
         align-items: center;
@@ -188,14 +196,8 @@ footer h2 {
         float: none;
         margin-right: 0px;
     }
-    
     .float-right {
         float: none;
         margin-left: 0px;
     }
-    
-    
-}
-body, html {
-    overflow: auto; /* or overflow: visible; */
 }
